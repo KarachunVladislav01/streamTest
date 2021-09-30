@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: antiquewhite;
+
+  .top {
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      font-size: 20px;
+
+      border: 1px solid #e1bde1;
+      border-radius: 4px;
+
+      outline: unset;
+
+      &:focus {
+        border-color: #e18de1;
+      }
+    }
+  }
+
+  .bottom {
+    height: 70%;
+    width: 100%;
+  }
+}
