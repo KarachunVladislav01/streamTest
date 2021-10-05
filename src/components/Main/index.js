@@ -12,7 +12,7 @@ function Main() {
       <div className={styles.top}>
         <input
           value={localUrl}
-          onChange={(event) => setLocalUrl(event)}
+          onChange={(event) => setLocalUrl(event.target.value)}
           onBlur={() => setUrl(localUrl)}
         />
       </div>
