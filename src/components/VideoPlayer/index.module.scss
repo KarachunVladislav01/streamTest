@@ -1,0 +1,27 @@
+.container {
+  height: 100%;
+  width: 100%;
+
+  background-color: antiquewhite;
+
+  display: flex;
+
+  .videoPlayer {
+    height: 0;
+    width: 100%;
+
+    position: relative;
+
+    padding-bottom: calc(100% * 9 / 16);
+
+    > canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      background-color: #c9bba8;
+    }
+  }
+}

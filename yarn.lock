@@ -8275,6 +8275,11 @@
     "safe-buffer" "^5.0.1"
     "sha.js" "^2.4.8"
 
+"pcm-player@^0.0.11":
+  "integrity" "sha512-+FmX62jiqZa7wDCqSRQ1g3DuU6JNgpymgOLCWhmiE/Lj/M+rOUNqgNwVQX509LdA9dtBtVD3EQQUSp9JqU6upw=="
+  "resolved" "https://registry.npmjs.org/pcm-player/-/pcm-player-0.0.11.tgz"
+  "version" "0.0.11"
+
 "performance-now@^2.1.0":
   "integrity" "sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns="
   "resolved" "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
@@ -10552,6 +10557,11 @@
   "resolved" "https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.1.tgz"
   "version" "1.0.1"
 
+"stream-split@^1.1.0":
+  "integrity" "sha1-2bXF4PoJkaTalflukfXxUYBNPTw="
+  "resolved" "https://registry.npmjs.org/stream-split/-/stream-split-1.1.0.tgz"
+  "version" "1.1.0"
+
 "strict-uri-encode@^1.0.0":
   "integrity" "sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM="
   "resolved" "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz"
@@ -10583,6 +10593,14 @@
   "integrity" "sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw=="
   "resolved" "https://registry.npmjs.org/string-natural-compare/-/string-natural-compare-3.0.1.tgz"
   "version" "3.0.1"
+
+"string-replace-loader@^2.2.0":
+  "integrity" "sha512-HYBIHStViMKLZC/Lehxy42OuwsBaPzX/LjcF5mkJlE2SnHXmW6SW6eiHABTXnY8ZCm/REbdJ8qnA0ptmIzN0Ng=="
+  "resolved" "https://registry.npmjs.org/string-replace-loader/-/string-replace-loader-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "loader-utils" "^1.2.3"
+    "schema-utils" "^2.6.5"
 
 "string-width@^3.0.0", "string-width@^3.1.0":
   "integrity" "sha512-vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w=="
@@ -10798,6 +10816,11 @@
     "stable" "^0.1.8"
     "unquote" "~1.1.1"
     "util.promisify" "~1.0.0"
+
+"sylvester.js@^0.1.1":
+  "integrity" "sha1-CezIV4K4LuhyOWtnhgEWjDx1mCY="
+  "resolved" "https://registry.npmjs.org/sylvester.js/-/sylvester.js-0.1.1.tgz"
+  "version" "0.1.1"
 
 "symbol-tree@^3.2.4":
   "integrity" "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw=="
@@ -11542,7 +11565,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@2 || 3 || 4", "webpack@4.44.2":
+"webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@1 || 2 || 3 || 4", "webpack@2 || 3 || 4", "webpack@4.44.2":
   "integrity" "sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.44.2.tgz"
   "version" "4.44.2"
@@ -11841,6 +11864,16 @@
     "is-typedarray" "^1.0.0"
     "signal-exit" "^3.0.2"
     "typedarray-to-buffer" "^3.1.5"
+
+"ws-avc-player@^2.0.2":
+  "integrity" "sha512-v9OLt5OZE2KGsIWxPwboHOO2zhbkkzndzj+F0u4SW39j13zPFs3u2JHxBCr9Q6oquNzIjLTbWA3BxOetqeDgFw=="
+  "resolved" "https://registry.npmjs.org/ws-avc-player/-/ws-avc-player-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "debug" "^4.1.1"
+    "stream-split" "^1.1.0"
+    "string-replace-loader" "^2.2.0"
+    "sylvester.js" "^0.1.1"
 
 "ws@^6.2.1":
   "integrity" "sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA=="

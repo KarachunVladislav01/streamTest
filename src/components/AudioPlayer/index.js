@@ -1,10 +1,12 @@
 import styles from "./index.module.scss";
 import { useEffect } from "react";
 
-import { PCMPlayer } from "../../utility/pcm-player/pcm-player";
+import PCMPlayer from "pcm-player";
 
 function AudioPlayer({ url }) {
   useEffect(() => {
+    if (url === "") return;
+
     const socketURL = `ws://${url}`;
     const player = new PCMPlayer({
       encoding: "16bitInt",
